@@ -19,6 +19,7 @@ This project consist of a number of AWS platforms and components as follows:
 3. An API Gateway
 4. Lambda functions
 5. Multiple S3 buckets
+   
 ---
 
 ### Architecture
@@ -31,6 +32,7 @@ The System Architecure is depicted below:
 
 The system works as follows:
 1. 
+
 ---
 
 API Gateway to S3 bucket data flow
