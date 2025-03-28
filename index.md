@@ -4,9 +4,9 @@
 
 ## Proforma invoice Portal
 
-This is a development project to create a Web Portal to create a proforma invoice based upon Service Delivery outcomes
+This is a development project of a Web Portal to create a proforma invoice based upon Service Delivery outcomes
 
-Web Portal System for the automated creation of a pro-forma invoice by extracting info via client’s Service Management API, using a Python Panda to consolidate info regarding service requests and monthly fixed billing line items onto the resulting PDF document which is then uploaded to client’s billing system for validation and ingestion.
+Web Portal System for the automated creation of a pro-forma invoice by extracting info via client’s Service Management Platform API to consolidate info regarding incidents resolved, service requests completed and monthly fixed billing line items onto the resulting PDF document which is then uploaded to client’s billing system for validation and ingestion.
 
 ---
 
@@ -15,8 +15,10 @@ Web Portal System for the automated creation of a pro-forma invoice by extractin
 This project consist of a number of AWS platforms and components as follows:
 1This project consists of a number of AWS platforms and components as follows:
 1. Single VPC - Shared services
-3. Multiple EC2 instances (Grafana, Django Portal, Aurora DB, Strongswan host etc. )
-4. An API Gateway
+2. Multiple EC2 instances (Django Portal, Aurora DB, Strongswan host etc. )
+3. An API Gateway
+4. Lambda functions
+5. Multiple S3 buckets
 ---
 
 ### Architecture
